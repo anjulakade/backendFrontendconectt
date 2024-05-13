@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-
+//BackEndAndFrontendConnect
 
 //            (http://localhost:4200)
 @CrossOrigin("*")
@@ -34,7 +34,6 @@ public String saveUser(@RequestBody  User u)
   public Iterable<User> getAllUsers()
   {
 	return us.getAllusers();
-	  
 	  
   }
   @PutMapping("/updatebyPut/{id}")
